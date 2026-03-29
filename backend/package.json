@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5",
+    "express": "^4",
+    "socket.io": "^4",
+    "jsonwebtoken": "^9",
+    "cookie-parser": "^1",
+    "cors": "^2",
+    "bull": "^4",
+    "ioredis": "^5"
+  },
+  "devDependencies": {
+    "prisma": "^5",
+    "typescript": "^5",
+    "ts-node-dev": "^2"
+  }
+}
