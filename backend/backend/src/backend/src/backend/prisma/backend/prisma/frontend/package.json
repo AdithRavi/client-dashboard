@@ -1,8 +1,0 @@
-{
-  "name": "frontend",
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "socket.io-client": "^4"
-  }
-}
